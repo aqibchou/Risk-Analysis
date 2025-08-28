@@ -6,7 +6,7 @@ This project provides tools that use concepts from physics and mathematics to de
 
 - **Entropy Analysis**: Measures the unpredictability of stock returns
 - **Mutual Information**: Quantifies the correlation between past and future returns
-- **Hurst Exponent**: Determines if price movements are persistent or mean-reverting
+- **Hurst Exponent**: Measures market memory
 - **Risk Classification**: Automatically categorizes stocks into risk levels
 
 ## Risk Categories
@@ -83,9 +83,9 @@ print(risk_results)
 - **High (> 0.2)**: Strong correlation between past and future
 
 ### Hurst Exponent
-- **< 0.4**: Mean-reverting behavior (prices tend to return to average)
-- **0.4-0.6**: Mixed behavior
-- **> 0.6**: Persistent behavior (trends tend to continue)
+- H ≈ 0.5 → white noise, weak memory (an ordinary day).
+- H > 0.5 → persistence: the past strongly influences the present (a traumatic trace).
+- H < 0.5 → anti-persistent behavior.
 
 ## Example Output
 
@@ -130,7 +130,7 @@ The risk detection algorithm combines three key metrics:
 
 1. **Shannon Entropy**: Measures information content and unpredictability
 2. **Normalized Mutual Information**: Quantifies temporal dependencies
-3. **Hurst Exponent (R/S Analysis)**: Determines persistence vs. mean-reversion
+3. **Hurst Exponent (R/S Analysis)**: Measures Market Memory
 
 The algorithm automatically flags stocks based on threshold combinations of these metrics, providing early warning of potential risk factors.
 
