@@ -11,16 +11,16 @@ This project provides tools that use concepts from physics and mathematics to de
 
 ## Risk Categories
 
-### 🟢 Low Risk (Latent)
+###  Low Risk (Latent)
 - Moderate predictability
 - Stable correlation patterns
 - Lower probability of extreme events
 
-### 🟡 Medium Risk
+###  Medium Risk
 - **Chaotic Memory**: High persistence + high entropy
 - **Blocked Flow**: Low mutual information (weak correlation)
 
-### ⚠️ High Risk (Structural Time Bomb)
+###  High Risk (Structural Time Bomb)
 - High persistence (Hurst > 0.5)
 - High entropy (H_ent > 0.9)
 - Low mutual information (MI < 0.05)
@@ -92,24 +92,24 @@ print(risk_results)
 ```
 🔍 Analyzing AAPL for risk factors...
 ============================================================
-📊 Downloaded 502 days of data
-📅 Date range: 2023-08-28 to 2025-08-28
-📈 Calculated 501 daily returns
+ Downloaded 502 days of data
+ Date range: 2023-08-28 to 2025-08-28
+ Calculated 501 daily returns
 
-📊 Basic Statistics:
+ Basic Statistics:
    Mean Return: 0.0008
    Std Return: 0.0189
    Min Return: -0.0523
    Max Return: 0.0789
 
-⚠️  Risk Factor Analysis:
+  Risk Factor Analysis:
    Entropy: 0.5896
    Mutual Information: 0.1023
    Hurst Exponent: 0.5546
    Risk Flag: latent
 
-🔍 Risk Interpretation:
-   🟢 LOW RISK: Latent risk factors
+ Risk Interpretation:
+    LOW RISK: Latent risk factors
    This indicates:
    • Moderate predictability
    • Stable correlation patterns
