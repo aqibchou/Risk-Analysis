@@ -90,7 +90,7 @@ print(risk_results)
 ## Example Output
 
 ```
-🔍 Analyzing AAPL for risk factors...
+ Analyzing AAPL for risk factors...
 ============================================================
  Downloaded 502 days of data
  Date range: 2023-08-28 to 2025-08-28
